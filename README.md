@@ -1,6 +1,6 @@
 
 
-# DOCUMENTACION VIP2CARS
+# DOCUMENTACION VIP2CARS LARAVEL-12
 ## Requisitos del Entorno
 
 * PHP: 8.2 o superior.
@@ -35,12 +35,19 @@
     ```
     php artisan key:generate
     ```
-4. **Migraciones y datos iniciales Seed**
+6. **Migraciones y datos iniciales Seed**
     ```sh
     php artisan migrate:fresh --seed
     ```
 
-5. **Desplegar en local**
+7. **Desplegar en local**
     ```sh
     php artisan serve
+    ```
+
+
+7. **Usuario para Loguearse:**
+    ```sh
+    correo: admin@gmail.com
+    password: 12345678
     ```

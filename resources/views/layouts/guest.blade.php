@@ -31,7 +31,18 @@
                     </h1>
                     <p class="text-gray-500 text-center uppercase tracking-widest text-xs">Taller Automotriz Premium</p>
                 </a>
+                <br />
+                <div class="mb-4 p-3 bg-blue-50 border border-blue-200 rounded-lg shadow-sm w-full max-w-md">
+                    <p class="text-sm text-blue-800 font-semibold mb-1">
+                        <i class="bi bi-info-circle me-1"></i> Acceso de prueba:
+                    </p>
+                    <div class="text-xs text-blue-700">
+                        <strong>Correo:</strong> admin@gmail.com <br>
+                        <strong>Password:</strong> 12345678
+                    </div>
+                </div>
             </div>
+            
 
             <div class="w-full sm:max-w-md mt-2 px-6 py-8 bg-white shadow-md overflow-hidden sm:rounded-lg login-card">
                 {{ $slot }}
