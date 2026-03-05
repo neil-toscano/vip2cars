@@ -1,5 +1,10 @@
 
+# PREGUNTA 1: Modelado de Base de Datos (BBDD) – Encuestas anónimas
+## A. 📄 EL ARCHIVO (PDF Y SCRIPT PARA CREACION DE TABLAS)
 
+* [📄link para pdf y script sql](https://drive.google.com/drive/folders/1IVI-QCumdtdwyMgOWvb2BwqIJD-xVIXW?usp=sharing)
+
+# PREGUNTA 2:  CRUD – Vehículos y contactos (rubro automotriz VIP2CARS)
 # DOCUMENTACION VIP2CARS LARAVEL-12
 ## Requisitos del Entorno
 
