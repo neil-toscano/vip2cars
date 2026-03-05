@@ -27,14 +27,14 @@
     composer install
     npm install && npm run build
    ```
-3. **Configurar variables de entorno: Renombra el archivo (`.env.example`) a (`.env`) y configura las credenciales, (DB_DATABASE, DB_USERNAME, DB_PASSWORD, DB_PORT), se usa mysql como base de datos **
+3. **Configurar variables de entorno: Renombra el archivo (`.env.example`) a (`.env`) y configura las credenciales, (DB_DATABASE, DB_USERNAME, DB_PASSWORD, DB_PORT), se usa mysql como base de datos**
 
 
 4. **Generar la clave de seguridad**
     ```
     php artisan key:generate
     ```
-5. **Migraciones y datos iniciales Seed**
+5. **Migraciones y datos iniciales Seed, se generan las tablas y el usuario admin**
     ```sh
     php artisan migrate:fresh --seed
     ```
