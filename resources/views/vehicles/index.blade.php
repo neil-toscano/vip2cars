@@ -88,11 +88,11 @@
     </div>
 </div>
 
-<div class="mt-3 d-flex justify-content-between align-items-center">
-    <small class="text-muted">
+<div class="mt-3 d-flex justify-content-center align-items-center">
+    <!-- <small class="text-muted">
         Mostrando {{ $vehicles->firstItem() ?? 0 }} - {{ $vehicles->lastItem() ?? 0 }}
         de {{ $vehicles->total() }} registros
-    </small>
+    </small> -->
     {{ $vehicles->links('pagination::bootstrap-5') }}
 </div>
 
