@@ -7,6 +7,7 @@ use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
+
 class DatabaseSeeder extends Seeder
 {
     use WithoutModelEvents;
@@ -22,6 +23,11 @@ class DatabaseSeeder extends Seeder
             'name' => 'Admin User',
             'email' => 'admin@gmail.com',
             'password' => Hash::make('12345678'),
+        ]);
+
+        $this->call([
+            ClientSeeder::class,
+            VehicleSeeder::class,
         ]);
     }
 }

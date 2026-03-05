@@ -93,7 +93,7 @@
         Mostrando {{ $vehicles->firstItem() ?? 0 }} - {{ $vehicles->lastItem() ?? 0 }}
         de {{ $vehicles->total() }} registros
     </small>
-    {{ $vehicles->links() }}
+    {{ $vehicles->links('pagination::bootstrap-5') }}
 </div>
 
 
